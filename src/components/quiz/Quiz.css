@@ -1,0 +1,17 @@
+.quiz {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 100px;
+    background: linear-gradient(225deg, #ce0033 0%, #f76f6f 100%);
+}
+
+.quiz h2 {
+    color: white;
+    text-align: center;
+}
+
+.quiz-wrapper {
+    width: 700px;
+}

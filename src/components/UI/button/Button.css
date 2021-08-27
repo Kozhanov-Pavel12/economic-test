@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(224, 224, 224);
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:active {
+    box-shadow: inset 2px 2px 1px rgba(184, 184, 184, 0.3);
+}
+
+.successBtn {
+    background: linear-gradient(to right, #f83570 0%, #c7ae20 100%);
+}
+
+.primaryBtn {
+    background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.repeatBtn {
+    background: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+}

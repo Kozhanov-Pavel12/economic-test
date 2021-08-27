@@ -1,0 +1,25 @@
+.test-creator {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    padding-top: 0;
+    background: linear-gradient(to right, #f2cf58, #f11f61);
+}
+
+.test-creator > div {
+    max-width: 600px;
+    padding: 0 10px;
+}
+
+.test-creator h2 {
+    text-align: center;
+    color: white;
+}
+
+.test-creator form {
+    background: #eee;
+    border-radius: 3px;
+    padding: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
